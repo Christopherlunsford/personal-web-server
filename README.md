@@ -4,4 +4,4 @@ My personal web server project. Sets up a simple Nginx web server on a Linux mac
 ## Steps
 
 1. Clone the repositiory:
-'''bash
+```bash
