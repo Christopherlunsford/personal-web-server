@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Update package list and install nginx (web server)
+sudo apt update
+sudo apt install nginx -y
+
+
+#start and enable Nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx 
+
+#sudo systemctl check nginx (always check the status)
+
+#install certbot for SSL
+Sudo apt install certbot python3-nginx -y 
+
+echo "Nginx and Certbot installed. Don't forget to run certbot to secure your domain!"
+
+#you will need a domain name in order for it to work
+#sudo certbot --nginx -d example.com -d www.example.com
+#replace example with your domain. 
+
+
+
