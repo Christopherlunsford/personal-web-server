@@ -5,3 +5,5 @@ My personal web server project. Sets up a simple Nginx web server on a Linux mac
 
 1. Clone the repositiory:
 ```bash
+git clone https://github.com/Christopherlunsford/personal-web-server.git
+
